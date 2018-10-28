@@ -12,7 +12,6 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private EditText editText;
-    private Button button;
     private TextView textView;
 
     @Override
@@ -26,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void initComponents() {
         editText = findViewById(R.id.editText);
         textView = findViewById(R.id.textView);
-        button = findViewById(R.id.button);
+        Button button = findViewById(R.id.button);
         button.setOnClickListener(this);
     }
 
